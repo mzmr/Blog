@@ -1,0 +1,132 @@
+ul {
+	list-style: none;
+}
+
+li {
+	margin: 6px;
+}
+
+div {
+	padding-bottom: 15px;
+}
+
+input, textarea {
+	margin-left: 6px;
+}
+
+div.content {
+	padding: 10px;
+}
+
+div.post {
+	margin: 10px;
+	padding: 5px 	15px;
+	background-color: #eee;
+	float: left;
+	width: 400px;
+}
+
+p.post_txt, div.post_comment {
+	background-color: #ddd;
+	padding: 10px;
+}
+
+div.post_comment {
+	margin: 0px 0px 6px 15px;
+}
+
+p.Pozytywny, p.Neutralny, p.Negatywny {
+	font-weight: bold;
+}
+
+p.Pozytywny, p.Neutralny, p.Negatywny {
+	margin-top: 0;
+}
+
+p.Pozytywny {
+	color: green;
+}
+
+p.Neutralny {
+	color: grey;
+}
+
+p.Negatywny {
+	color: red;
+}
+
+p.comment_txt {
+	margin-bottom: 0;
+}
+
+p.no_comment {
+	margin: 0;
+}
+
+div.menu {
+	background-color: #f2e8ff;
+	padding: 0;
+}
+
+a.menu_item, a.style_item, a.czat_item {
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	margin: 0px 6px;
+	font-weight: bold;
+	color: black;
+}
+
+a.menu_item {
+	background-color: #ffe4d1;
+}
+
+a.menu_item:hover {
+	background-color: #ffdabf;
+}
+
+a.style_item {
+	float: right;
+	background-color: #e4ffd1;
+}
+
+a.style_item:hover {
+	background-color: #daffbf;
+}
+
+a.czat_item {
+	background-color: #e4d1ff;
+}
+
+a.czat_item:hover {
+	background-color: #dabfff;
+}
+
+div.content {
+	padding: 15px;
+}
+
+a.blog_list_item {
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	margin: 10px;
+	background-color: #eee;
+	font-weight: bold;
+	color: black;
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 50px;
+}
+
+a.blog_list_item:hover {
+	background-color: #c7d7ee;
+}
+
+textarea#chatArea {
+	background-color: #dfd;
+	color: #000;
+}
